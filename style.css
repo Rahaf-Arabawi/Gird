@@ -1,0 +1,332 @@
+/* tasks1 */
+.gird{
+    display: grid;
+    grid-template-columns: repeat(5,250px);
+    gap:20px;
+    
+    }
+    
+    .gird div{
+    background-color: blue;
+    height: 250px;
+    }
+    /* tasks2 */
+    .content{
+        width: 900px;
+        /* height: 20px; */
+        /* background-color: brown; */
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(3,1fr);
+        gap: 40px;
+    }
+    /* tasks3 */
+    .Gird{
+        /* background-color: rgb(255, 0, 195); */
+        display: grid;
+        grid-template-columns:repeat(4,auto) ;
+        grid-template-rows:repeat(auto-fill minmax(100px,1fr));
+        gap: 10px;
+        padding: 10px;
+        height: 500px;
+        
+    }
+    .Gird div{
+        border-radius: 10px;
+        text-align: center;
+    }
+    .hader{
+    background-color: orange;
+    grid-column: 1/-1;
+    
+    }
+    .sidebar{
+    background-color: brown;
+    grid-row: 2/9;
+     
+    }
+    .nav{
+    background-color: blue;
+    grid-column: 2/5;
+    
+   
+    }
+    .article{
+   background-color: bisque;
+   grid-column: 2/5;grid-row: 3/9;
+    
+    }
+    .footar{
+  background-color: dimgray;
+  grid-column: 1/-1;
+  
+    }
+    /* tasks4 */
+    .image{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    /* tasks5 */
+.usinggrid{
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns:repeat(5,100px);
+    grid-template-rows: repeat(3,100px);
+    gap: 10px;
+    padding: 5px;
+}
+.usinggrid div{
+   border-radius: 5px;
+}
+.box1{
+  background-color: blue;
+  grid-row: 1/3;
+  grid-column: 1/3;
+
+}
+.box2{
+   background-color: rgb(17, 17, 32);
+   grid-column: 3/6;
+   height: 100px;
+}
+.box3{
+  background-color: rgb(162, 118, 167);
+  grid-row: 3/4;
+  grid-column: 1/3;
+}
+.box4{
+ background-color: rgb(166, 215, 146);
+ grid-row: 2/4;
+ grid-column:3/5;
+}
+.box5{
+    background-color: rgb(166, 215, 146);
+    
+   
+}
+.box6{
+  background-color: rgb(140, 24, 70);
+ 
+}
+/* tasks6 */
+.main-backround{
+    padding: 10px;
+   background-image: linear-gradient(#e60073,#b300b3,#b300b3);
+   display: grid;
+   gap: 5px;
+   grid-template-columns: auto  auto  auto  auto  auto auto auto auto;
+   grid-template-rows: repeat(4,f);
+   
+}
+.main-backround div{
+    
+     background-color: orange;
+    text-align: center;
+   /* gap: 20px; */
+}
+.color3{
+    grid-area: 4/1/4/9;
+}
+/* tasks7 */
+.main{
+    border: 3px solid;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: space-evenly;
+    gap:20px;
+}
+.main div{
+    padding: 20px;
+   
+}
+.item1,.item2,.item3{
+    background-color: gray;
+}
+.item4,.item5,.item6{
+    background-color: gray;
+}
+/* tasks8 */
+.img{
+    /* background-color: black; */
+    display: grid;
+    /* gap: 5px; */
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.img div{
+    /* background-color: #e60073; */
+    width: 90%;
+    height: 200px;
+    /* object-fit: cover; */
+
+}
+/* tasks9 */
+.main5{
+    padding: 30px;     
+    display: grid;
+     grid-template-columns:repeat(5,100px);
+     grid-template-rows:repeat(5,100px);
+     width:50%;}
+    
+     .box-top{
+     background-color:rgb(201, 91, 91);
+       grid-area:1/1/4/4;
+       z-index: 1;
+       opacity: 0.75;  
+     }
+     .box-bottom{
+      background-color: blue;
+      grid-area:2/2/5/5 ;
+      z-index:-1 ;
+      
+      
+     }
+     .box-middle{
+        background-color:greenyellow ;
+        grid-area:3/3/6/6 ;
+        opacity: 0.75;
+    }
+
+/* tasks10 */
+.card{
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    display: grid;
+    /* border: 2px solid black; */
+    /* gap: 10px; */
+    /* grid-template-rows: 4,auto; */
+    width: 440px;
+    height: 440px;
+    margin: 0 auto;
+    border-radius: 5px;
+    
+}
+.big{
+width: 400px;
+height: 1px;
+
+
+}
+.header{
+    display: grid;
+    padding: 7px;
+    grid-template-columns: 60px 350px 10px 2px;
+    grid-template-rows: repeat(4,9px);
+}
+
+.card0{
+    border-radius: 50%;
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    
+}
+.card3{
+    border-radius: 2px;
+    background-color: red;
+    height: 130px;
+    width: 410px;
+    margin: 10px;
+    
+}
+ .icon{ 
+display: grid;
+grid-template-columns: repeat(6,24px);
+/* gap: 10px; */
+justify-content: end;
+padding: 10px;
+} 
+
+
+.icon1{
+    
+    border-radius: 50%;
+    background-color: red;
+    width: 20px;
+    height: 20px; 
+    
+    
+}
+
+ 
+/* tasks11 */
+  .content3{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    padding: 20px;
+  }
+  .item{
+    background-color: #f3f3f3;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-weight: bold;
+  }
+  .sub-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+   
+  }
+   .sub{
+    flex: 1 1 calc(50% - 10px);
+    background-color: #ddd;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #bbb;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+  } 
+/* tasks12 */
+.products{
+   display: grid;
+   grid-template-columns: repeat(4,auto);
+   gap: 10px;
+   width: 40%;
+}
+
+.product{
+    border: 2px solid;
+    width: 200px;
+    height:340px ;
+   border-radius: 10px;
+}
+
+.input{
+    text-align: center;
+}
+
+.img9{
+
+    text-align: center;
+
+}
+
+.product1{
+    border: 2px solid;
+    width: 200px;
+    height:340px ;
+   border-radius: 10px;
+}
+ 
+.product2{
+    border: 2px solid;
+    width: 200px;
+    height:340px ;
+   border-radius: 10px;
+}
+
+.product3{
+    border: 2px solid;
+    width: 200px;
+    height:340px ;
+   border-radius: 10px;
+}
+
+.product4{
+    border: 2px solid;
+    width: 200px;
+    height:340px ;
+   border-radius: 10px;
+}
